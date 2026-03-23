@@ -1,6 +1,8 @@
 # Pipeline de Engenharia de Dados com Databricks | Arquitetura Medalhão
 
-
+<p align="center">
+  <img src="docs/databricks_img.png" width="700"/>
+</p>
 
 ## Visão Geral
 Pipeline completo de dados com Databricks, incluindo ingestão, transformação, modelagem dimensional (SCD Tipo 2) e orquestração com DAG.
