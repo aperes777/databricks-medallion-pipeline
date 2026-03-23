@@ -4,7 +4,7 @@
   <img src="docs/databricks_img.png" width="700"/>
 </p>
 
-## 🔄 Orquestração do Pipeline (DAG)
+## Orquestração do Pipeline (DAG)
 
 <p align="center">
   <img src="docs/pipeline_dag.png" width="900"/>
