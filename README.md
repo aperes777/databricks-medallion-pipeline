@@ -1,7 +1,13 @@
-# Pipeline de Engenharia de Dados com Databricks | Arquitetura Medalhão
+# Pipeline de Engenharia de Dados com Databricks | Arquitetura Medallion
 
 <p align="center">
   <img src="docs/databricks_img.png" width="700"/>
+</p>
+
+## 🔄 Orquestração do Pipeline (DAG)
+
+<p align="center">
+  <img src="docs/pipeline_dag.png" width="900"/>
 </p>
 
 ## Visão Geral
