@@ -5,13 +5,14 @@
 </p>
 
 ## Orquestração do Pipeline (DAG)
-
+Pipeline orquestrado no Databricks com dependências entre camadas Bronze, Silver e Gold, garantindo execução sequencial e consistência dos dados.
 <p align="center">
   <img src="docs/pipeline_dag.png" width="900"/>
 </p>
 
 ## Visão Geral
-Pipeline completo de dados com Databricks, incluindo ingestão, transformação, modelagem dimensional (SCD Tipo 2) e orquestração com DAG.
+Pipeline completo de engenharia de dados com Databricks, incluindo ingestão, transformação, modelagem dimensional (SCD Tipo 2) e orquestração com DAG.
+
 
 Os dados são ingeridos a partir de um banco PostgreSQL, tratados e transformados, culminando em um modelo dimensional com SCD Tipo 2 e tabela fato.
 
