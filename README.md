@@ -136,6 +136,7 @@ Cada etapa do pipeline é executada somente após a conclusão da anterior, asse
 * Modelagem dimensional consistente
 * Uso de boas práticas de engenharia de dados
 * Estrutura escalável e organizada
+* Otimização de desempenho com ZORDER nas tabelas dimensionais
 
 ---
 
