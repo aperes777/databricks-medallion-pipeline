@@ -8,6 +8,3 @@ LEFT JOIN gold.dim_product d
 ON s.product_id = d.product_id
 WHERE d.product_id IS NULL;
 
--- COMMAND ----------
-
-select * from gold.dim_product;
