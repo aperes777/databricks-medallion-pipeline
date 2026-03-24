@@ -1,4 +1,7 @@
 # Pipeline de Engenharia de Dados com Databricks | Arquitetura Medallion
+![Databricks](https://img.shields.io/badge/Databricks-Lakehouse-red)
+![PySpark](https://img.shields.io/badge/PySpark-Data%20Processing-orange)
+![SQL](https://img.shields.io/badge/SQL-Transformation-blue)
 
 <p align="center">
   <img src="docs/databricks_img.png" width="700"/>
@@ -137,6 +140,7 @@ Cada etapa do pipeline é executada somente após a conclusão da anterior, asse
 * Uso de boas práticas de engenharia de dados
 * Estrutura escalável e organizada
 * Otimização de desempenho com ZORDER nas tabelas dimensionais
+* A tabela fato utiliza uma chave técnica baseada em hash para evitar duplicidade de registros durante cargas incrementais
 
 ---
 
